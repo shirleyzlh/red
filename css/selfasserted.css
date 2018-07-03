@@ -1,0 +1,54 @@
+.self_asserted_container .row .panel-default .panel-body {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 100%;
+  width: auto;
+}
+.self_asserted_container .row .panel-default .panel-body .branding img {
+  display: block;
+  margin: auto;
+}
+.self_asserted_container .row .panel-default .panel-body .branding h1 {
+  font-size: 1.5em;
+  color: #505050;
+}
+.self_asserted_container .row .panel-default .panel-body h3 {
+  font-size: 1.5em;
+  color: #505050;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+.self_asserted_container .row .panel-default .panel-body .intro {
+  display: block;
+  text-align: left;
+  margin-top: 2rem;
+}
+.self_asserted_container .row .panel-default .panel-body #api #attributeVerification .pageLevel, .self_asserted_container .row .panel-default .panel-body #api #attributeVerification .error {
+  float: left;
+  color: #d30000;
+  text-align: left;
+  margin-bottom: -10px;
+}
+.self_asserted_container .row .panel-default .panel-body #api .verifying-modal {
+  margin-top: 10px;
+}
+#attributeVerification #attributeList ul {
+  display: flex;
+  flex-direction: column;
+}
+#attributeVerification #attributeList ul li input {
+  margin-top: 10px;
+  width: 100%;
+}
+#attributeVerification #attributeList ul li .helpText {
+  display: none;
+  color: #a61e0c;
+  text-align: justify;
+}
+div#email_intro {
+  float: left;
+}
+div#email_info {
+  text-align: left;
+}

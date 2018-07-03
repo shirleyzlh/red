@@ -1,0 +1,38 @@
+﻿.accountButton, .buttons button {
+  width: 60%;
+  height: 50px;
+}
+button#verifyCode {
+  background-color: #296ec6 !important;
+}
+button#verifyCode:hover {
+  background-color: #1662c7 !important;
+}
+button#verifyPhone {
+  background-color: #296ec6 !important;
+}
+button#verifyPhone:hover {
+  background-color: #1662c7 !important;
+}
+.col-lg-6 {
+  width: auto;
+}
+#codeVerification #verificationCode {
+  display: inline-block !important;
+  width: 80%;
+  border-color: #0274b3;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 0.2rem;
+  height: 30px;
+}
+#codeVerification div.actionLabel a#retryCode {
+  cursor: pointer;
+}
+#api #phonefactor_initial .intro p {
+  text-align: left;
+}
+#api div p {
+  text-align: left;
+  margin-top: 45px;
+}

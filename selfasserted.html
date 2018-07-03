@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sign up</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- TODO: favicon -->
+    <link href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://templatetheme.blob.core.windows.net/msa/css/common.css" rel="stylesheet" type="text/css" />
+    <link href="https://templatetheme.blob.core.windows.net/msa/css/selfasserted.css" rel="stylesheet" type="text/css" />
+    <!--
+    <style type="text/css">
+        html {
+            background: none;
+        }
+        
+        body {
+            background-image: url("https://templatetheme.blob.core.windows.net/msa/backgrounds/1-1.png");
+            background-attachment: fixed;
+            background-color: white;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: left;
+        }
+        
+        .container {
+            text-align: center;
+            width: 100%;
+            display: table;
+            height: 100vh;
+        }
+        
+        #api {
+            margin: 0 auto;
+        }
+        
+        .col-lg-6 {
+            max-width: 500px;
+            width: 100%;
+            float: none;
+            display: inline-block;
+            padding: 0;
+        }
+        
+        .row {
+            width: 100%;
+            margin: 0;
+            display: table-cell;
+            vertical-align: middle;
+        }
+        
+        ul {
+            padding: 0;
+        }
+        /** Social Button Styles **/
+        
+        #SignInWithLogonNameExchange {
+            background-color: #296ec6;
+            background-image: url(none);
+            background-size: 10%;
+            background-position-x: 95%;
+            background-position-y: 50%;
+            background-repeat: no-repeat;
+            border-radius: 1rem;
+            width: 100%;
+            width: 100%;
+            font-size: 1.0em;
+            margin-left: auto;
+        }
+        
+        #SignInWithLogonNameExchange:hover {
+            background-color: #1662c7;
+        }
+        
+        #FacebookExchange {
+            background-color: white;
+            background-image: url("https://templatetheme.blob.core.windows.net/msa/logos/Facebook.png");
+            background-size: 10%;
+            background-position-x: 5%;
+            background-position-y: 50%;
+            color: #3B5595;
+            border-color: #3B5595;
+            border-width: thin;
+            border-style: solid;
+            margin-bottom: 0px;
+            background-repeat: no-repeat;
+            border-radius: 1rem;
+            width: 100%;
+            width: 80%;
+            font-size: 1.0em;
+            margin-left: auto;
+        }
+        
+        #FacebookExchange:hover {
+            background-color: white;
+        }
+        
+        #GoogleExchange {
+            background-color: white;
+            background-image: url("https://templatetheme.blob.core.windows.net/msa/logos/Google.png");
+            background-size: 10%;
+            background-position-x: 5%;
+            background-position-y: 50%;
+            color: #C64A29;
+            border-color: #C64A29;
+            border-width: thin;
+            border-style: solid;
+            margin-bottom: 0px;
+            background-repeat: no-repeat;
+            border-radius: 1rem;
+            width: 100%;
+            width: 80%;
+            font-size: 1.0em;
+            margin-left: auto;
+        }
+        
+        #GoogleExchange:hover {
+            background-color: white;
+        }
+        
+        #MicrosoftAccountExchange {
+            background-color: white;
+            background-image: url("https://templatetheme.blob.core.windows.net/msa/logos/Microsoft.png");
+            background-size: 10%;
+            background-position-x: 5%;
+            background-position-y: 50%;
+            color: #01a4ef;
+            border-color: #01a4ef;
+            border-width: thin;
+            border-style: solid;
+            margin-bottom: 0px;
+            background-repeat: no-repeat;
+            border-radius: 1rem;
+            width: 100%;
+            width: 80%;
+            font-size: 1.0em;
+            margin-left: auto;
+        }
+        
+        #MicrosoftAccountExchange:hover {
+            background-color: white;
+        }
+        
+        #LinkedInExchange {
+            background-color: white;
+            background-image: url("https://templatetheme.blob.core.windows.net/msa/logos/LinkedIn.png");
+            background-size: 10%;
+            background-position-x: 5%;
+            background-position-y: 50%;
+            color: #0274b3;
+            border-color: #0274b3;
+            border-width: thin;
+            border-style: solid;
+            margin-bottom: 0px;
+            background-repeat: no-repeat;
+            border-radius: 1rem;
+            width: 100%;
+            width: 80%;
+            font-size: 1.0em;
+            margin-left: auto;
+        }
+        
+        #LinkedInExchange:hover {
+            background-color: white;
+        }
+        
+        #TwitterExchange {
+            background-color: white;
+            background-image: url("https://templatetheme.blob.core.windows.net/msa/logos/Twitter.png");
+            background-size: 10%;
+            background-position-x: 5%;
+            background-position-y: 50%;
+            color: #1DA1F2;
+            border-color: #1DA1F2;
+            border-width: thin;
+            border-style: solid;
+            margin-bottom: 0px;
+            background-repeat: no-repeat;
+            border-radius: 1rem;
+            width: 100%;
+            width: 80%;
+        }
+        
+        #TwitterExchange:hover {
+            background-color: white;
+        }
+        
+        .buttons #continue:disabled {
+            margin: 0 auto;
+            width: 50%;
+            height: 50px;
+            background-color: #296ec6;
+            opacity: .3;
+            border-radius: 1rem;
+            border: none;
+            color: white;
+            font-size: 1em;
+        }
+        
+        .buttons #continue {
+            margin: 0 auto;
+            width: 50%;
+            height: 50px;
+            background-color: #296ec6;
+            opacity: 1;
+            border-radius: 1rem;
+            border: none;
+            color: white;
+            font-size: 1em;
+            box-shadow: 0 0px 30px 0px #dae1f7;
+        }
+        
+        .buttons #continue:hover {
+            -moz-box-shadow: none;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            background-color: #1662c7;
+            border-color: #204d74;
+        }
+        
+        .buttons #cancel {
+            padding: 0;
+            margin-left: auto;
+            background: none;
+            border: 0;
+            width: 80px;
+            position: absolute;
+            background-color: transparent;
+            top: 2px;
+            left: 1%;
+            font-size: 1em;
+            color: #505050;
+            box-shadow: none;
+            text-align: left;
+        }
+        
+        .buttons #cancel:before {
+            content: url("https://templatetheme.blob.core.windows.net/msa/images/left-arrow.svg");
+            padding: 10px;
+            vertical-align: sub;
+            zoom: 90%;
+        }
+        
+        #attributeList ul {
+            padding: 0;
+        }
+        
+        #attributeList ul li {
+            list-style: none;
+        }
+        
+        #attributeList ul li label {
+            float: left;
+            display: none !important;
+        }
+        
+        #attributeList ul li label[for=country] {
+            float: left;
+            display: inline-block !important;
+        }
+        
+        #attributeList ul li label[for=cpiminternal_legalCountry] {
+            float: left;
+            display: inline-block !important;
+        }
+        
+        #attributeList ul li label[for=cpiminternal_dateOfBirth] {
+            float: left;
+            display: inline-block !important;
+        }
+        
+        #attributeList ul li input {
+            outline: none;
+            height: 50px;
+            width: 70%;
+            margin-bottom: 15px;
+            border-radius: 1rem;
+            border: none;
+            text-indent: 20px;
+            box-shadow: 0 0px 30px 0px #dae1f7;
+        }
+        
+        #attributeList ul li input::-webkit-input-placeholder {
+            text-indent: 20px;
+        }
+        
+        #attributeList ul li .attrEntry .verify {
+            padding-bottom: 10px;
+            position: relative;
+        }
+        
+        #attributeList ul li .attrEntry .verify #email_ver_but_send {
+            width: 50%;
+            height: 50px;
+            background-color: #296ec6;
+            color: white;
+        }
+        
+        #attributeList ul li .attrEntry .verify #email_ver_but_send:hover {
+            background-color: #1662c7;
+        }
+        
+        #attributeList ul li .attrEntry .verify #email_ver_but_verify {
+            width: inherit;
+            height: 50px;
+            background-color: #296ec6;
+            color: white;
+        }
+        
+        #attributeList ul li .attrEntry .verify #email_ver_but_verify:hover {
+            background-color: #1662c7;
+        }
+        
+        #attributeList ul li .attrEntry .verify #email_ver_but_resend {
+            border: 0;
+            font-size: 1em;
+            height: 50px;
+            right: 0;
+            bottom: -38px;
+            background-color: #296ec6;
+            color: white;
+            width: inherit;
+        }
+        
+        #attributeList ul li .attrEntry .verify #email_ver_but_resend:hover {
+            background-color: #1662c7;
+        }
+        
+        #attributeList ul li .attrEntry .verify #email_ver_but_edit {
+            margin-bottom: 15px;
+            border: none;
+            color: white;
+            background-color: #296ec6;
+            width: 50%;
+            height: 50px;
+        }
+        
+        #attributeList ul li .attrEntry .verify #email_ver_but_edit:hover {
+            background-color: #1662c7;
+        }
+        
+        #attributeList ul li .attrEntry .verify #email_ver_input_label {
+            display: none !important;
+        }
+        
+        #attributeList ul li .attrEntry .itemLevel {
+            display: none;
+        }
+        
+        #attributeList ul li .attrEntry .dropdown_single {
+            height: 50px;
+            border-color: #608ef1;
+            border-radius: 1rem;
+            width: 100%;
+            margin-bottom: 15px;
+        }
+        
+        #attributeList ul li .attrEntry div#cpiminternal_dateOfBirth.date {
+            margin-bottom: 15px;
+            display: table;
+            width: 100%;
+        }
+        
+        #attributeList ul li .attrEntry div#cpiminternal_dateOfBirth select#cpiminternal_dateOfBirth_day.day {
+            padding: 5px;
+            border-color: #608ef1;
+            border-radius: 1rem;
+            display: table-cell;
+            width: 25%;
+            height: 50px;
+        }
+        
+        #attributeList ul li .attrEntry div#cpiminternal_dateOfBirth select#cpiminternal_dateOfBirth_month.month {
+            padding: 5px;
+            border-color: #608ef1;
+            border-radius: 1rem;
+            display: table-cell;
+            width: 40%;
+            height: 50px;
+        }
+        
+        #attributeList ul li .attrEntry div#cpiminternal_dateOfBirth select#cpiminternal_dateOfBirth_year.year {
+            padding: 5px;
+            border-color: #608ef1;
+            border-radius: 1rem;
+            display: table-cell;
+            width: 35%;
+            height: 50px;
+        }
+        
+        #attributeList ul li .helpLink {
+            display: none;
+        }
+        
+        @media screen and (max-width: 100%) {
+            .row .panel-default .panel-body {
+                margin-top: 40px;
+            }
+            .row .panel-default .panel-body .branding img {
+                display: block;
+                height: 80px;
+                width: auto;
+                margin: 0 auto;
+            }
+            .row .panel-default .panel-body .branding h1 {
+                display: none;
+            }
+            .row .panel-default .panel-body h3 {
+                font-size: 1.5em;
+                margin-top: 15px;
+            }
+            #attributeVerification #attributeList ul li input {
+                width: 60%;
+                height: 40px;
+                margin-bottom: 10px;
+                border-radius: 1rem;
+                border: none;
+                text-indent: 10px;
+                box-shadow: 0 0px 40px 2px #dae1f7;
+            }
+            #attributeVerification #attributeList ul li input::-webkit-input-placeholder {
+                text-indent: 10px;
+            }
+            #attributeVerification #attributeList ul li #email {
+                width: 65%;
+                float: left;
+                position: relative;
+                z-index: 2;
+            }
+            #attributeVerification #attributeList ul li #email_ver_but_verify {
+                background: none;
+                border: 0;
+                color: #496ad8;
+                font-size: 1em;
+                position: relative;
+                right: 0;
+                top: 60px;
+                font-size: 1.1em;
+                width: auto;
+                z-index: 1;
+                height: 20px;
+            }
+            #attributeVerification #attributeList ul li #email_ver_input {
+                min-width: 50%;
+                width: 70%;
+                float: left;
+            }
+            #attributeVerification #attributeList ul li #email_ver_but_resend {
+                top: 10px;
+                font-size: 1.1em;
+                height: 20px;
+            }
+            #attributeVerification #attributeList ul li .attrEntry #email {
+                height: 40px;
+            }
+            #attributeVerification #attributeList ul li .attrEntry .verify #email_ver_but_send:after {
+                content: " Verify";
+                font-size: 1.1em;
+                font-style: bold;
+                margin-left: 40%;
+            }
+            #attributeVerification #attributeList ul li .attrEntry .verify #email_ver_but_send {
+                height: 40px;
+                width: auto;
+                float: right;
+                overflow: hidden;
+                text-indent: -200px;
+            }
+            #attributeVerification #attributeList ul li .attrEntry .verify #email_ver_but_edit {
+                margin-bottom: 15px;
+                border: none;
+                color: white;
+                background-color: #496ad8;
+                border-radius: 1rem;
+                font-size: 1em;
+                box-shadow: 0 0px 40px 2px #dae1f7;
+                width: 30%;
+                height: 40px;
+                overflow: hidden;
+                padding-top: 6px;
+                margin-left: 40%;
+            }
+            #attributeVerification #attributeList ul li .attrEntry .verify:after {
+                content: " ";
+                display: block;
+                clear: both;
+            }
+            #attributeVerification #attributeList #verifying_blurb {
+                margin-top: 15px;
+            }
+            #attributeVerification .buttons #continue {
+                height: 40px;
+            }
+            #attributeVerification .buttons #cancel {
+                font-size: 1em;
+                left: 40%;
+            }
+        }
+        
+        .panel,
+        .panel_layout,
+        .panel_layout_row,
+        body,
+        html {
+            height: 100%;
+        }
+        
+        .accountButton,
+        .buttons button {
+            -moz-border-radius: 8px;
+            -webkit-border-radius: 8px;
+            border-radius: 1rem;
+            width: 50%;
+            border: none;
+            font-size: 1em;
+            background-color: #296ec6;
+            color: white;
+            cursor: pointer;
+            margin-top: 10px;
+            margin-right: auto;
+            white-space: normal;
+            box-shadow: 0 0px 30px 0px #dae1f7;
+        }
+        
+        .accountButton:hover,
+        .buttons button:hover {
+            border: none;
+            -moz-box-shadow: none;
+            -webkit-box-shadow: none;
+            background-color: #1662c7;
+        }
+    </style>
+    <style type="text/css">
+        .self_asserted_container .row .panel-default .panel-body {
+            margin: 0 auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            max-width: 100%;
+            width: auto;
+        }
+        
+        .self_asserted_container .row .panel-default .panel-body .branding img {
+            display: block;
+            margin: auto;
+        }
+        
+        .self_asserted_container .row .panel-default .panel-body .branding h1 {
+            font-size: 1.5em;
+            color: #505050;
+        }
+        
+        .self_asserted_container .row .panel-default .panel-body h3 {
+            font-size: 1.5em;
+            color: #505050;
+            margin-top: 5px;
+            margin-bottom: 30px;
+        }
+        
+        .self_asserted_container .row .panel-default .panel-body .intro {
+            display: block;
+            text-align: left;
+            margin-top: 2rem;
+        }
+        
+        .self_asserted_container .row .panel-default .panel-body #api #attributeVerification .pageLevel,
+        .self_asserted_container .row .panel-default .panel-body #api #attributeVerification .error {
+            float: left;
+            color: #d30000;
+            text-align: left;
+            margin-bottom: -10px;
+        }
+        
+        .self_asserted_container .row .panel-default .panel-body #api .verifying-modal {
+            margin-top: 10px;
+        }
+        
+        #attributeVerification #attributeList ul {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #attributeVerification #attributeList ul li input {
+            margin-top: 10px;
+            width: 100%;
+        }
+        
+        #attributeVerification #attributeList ul li .helpText {
+            display: none;
+            color: #a61e0c;
+            text-align: justify;
+        }
+        
+        div#email_intro {
+            float: left;
+        }
+        
+        div#email_info {
+            text-align: left;
+        }
+    </style>
+    -->
+</head>
+
+<body>
+    <div class="container self_asserted_container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="branding">
+                            <img alt="Company Logo" class="companyLogo" src="https://templatetheme.blob.core.windows.net/msa/logos/logo.png">
+                            <div id="api" data-name="SelfAsserted">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

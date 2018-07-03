@@ -1,0 +1,200 @@
+#simplemodal-overlay {
+  background: #000;
+}
+#simplemodal-container {
+  background: #fff;
+  padding: 30px 20px 20px;
+  text-align: left;
+  -webkit-box-shadow: 0 0 30px 2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 30px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 30px 2px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+#simplemodal-container h2 {
+  font-family: Arial,Helvetica,sans-serif;
+  color: #1C5B96;
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+#simplemodal-container .simplemodal-data {
+  padding: 8px;
+  overflow: hidden;
+}
+#simplemodal-container h1 {
+  margin-bottom: 20px;
+}
+html {
+  font-size: 16px;
+  font-family: "Open Sans",sans-serif;
+  color: #454545;
+  background: #fffffd;
+}
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#api ul li {
+  display: block;
+  list-style-type: none;
+}
+#api .intro {
+  margin-left: auto;
+  margin-right: auto;
+}
+#api .intro p {
+  text-align: left;
+  font-size: 1.5em;
+  margin: auto;
+}
+table {
+  width: 40%;
+  margin: auto;
+}
+.alert-modal {
+  display: none;
+}
+.accountButton, .buttons button {
+  background-color: white;
+  background-image: url("../logos/LocalAccount.png");
+  background-size: 10%;
+  background-position-x: 5%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  color: #296ec6;
+  border-color: #296ec6;
+  border-width: thin;
+  border-style: solid;
+  border-radius: 0.2rem;
+  width: 100%;
+  font-size: 1em;
+  cursor: pointer;
+  margin-left:auto;
+  white-space: normal;
+  box-shadow: 0 0px 30px 0px #dae1f7;
+}
+.accountButton:hover, .buttons button:hover {
+  border-color: #296ec6;
+  border-width: thin;
+  border-style: solid;
+  background-color: white;
+}
+/** Social Button Styles **/
+#SignInWithLogonNameExchange {
+  background-color: white;
+  background-image: url("../logos/LocalAccount.png");
+  background-size: 10%;
+  background-position-x: 5%;
+  background-position-y: 50%;
+  color: #296ec6;
+  border-color: #296ec6;
+  border-width: thin;
+  border-style: solid;
+  background-repeat: no-repeat;
+  border-radius: 0.2rem;
+  width: 100%;
+  font-size: 1.0em;
+  margin-left: auto;
+}
+#SignInWithLogonNameExchange:hover {
+  background-color: white;
+}
+#FacebookExchange {
+  background-color: white;
+  background-image: url("../logos/Facebook.png");
+  background-size: 10%;
+  background-position-x: 5%;
+  background-position-y: 50%;
+  color: #3B5595;
+  border-color: #3B5595;
+  border-width: thin;
+  border-style: solid;
+  margin-bottom: 0px;
+  background-repeat: no-repeat;
+  border-radius: 0.2rem;
+  width: 100%;
+  font-size: 1.0em;
+  margin-left: auto;
+}
+#FacebookExchange:hover {
+  background-color: white;
+}
+#GoogleExchange {
+  background-color: white;
+  background-image: url("../logos/Google.png");
+  background-size: 10%;
+  background-position-x: 5%;
+  background-position-y: 50%;
+  color: #C64A29;
+  border-color: #C64A29;
+  border-width: thin;
+  border-style: solid;
+  margin-bottom: 0px;
+  background-repeat: no-repeat;
+  border-radius: 0.2rem;
+  width: 100%;
+  font-size: 1.0em;
+  margin-left: auto;
+}
+#GoogleExchange:hover {
+  background-color: white;
+}
+#MicrosoftAccountExchange {
+  background-color: white;
+  background-image: url("../logos/Microsoft.png");
+  background-size: 10%;
+  background-position-x: 5%;
+  background-position-y: 50%;
+  color: #01a4ef;
+  border-color: #01a4ef;
+  border-width: thin;
+  border-style: solid;
+  margin-bottom: 0px;
+  background-repeat: no-repeat;
+  border-radius: 0.2rem;
+  width: 100%;
+  font-size: 1.0em;
+  margin-left: auto;
+}
+#MicrosoftAccountExchange:hover {
+  background-color: white;
+}
+#LinkedInExchange {
+  background-color: white;
+  background-image: url("../logos/LinkedIn.png");
+  background-size: 10%;
+  background-position-x: 5%;
+  background-position-y: 50%;
+  color: #0274b3;
+  border-color: #0274b3;
+  border-width: thin;
+  border-style: solid;
+  margin-bottom: 0px;
+  background-repeat: no-repeat;
+  border-radius: 0.2rem;
+  width: 100%;
+  font-size: 1.0em;
+  margin-left: auto;
+}
+#LinkedInExchange:hover {
+  background-color: white;
+}
+#TwitterExchange {
+  background-color: white;
+  background-image: url("../logos/Twitter.png");
+  background-size: 10%;
+  background-position-x: 5%;
+  background-position-y: 50%;
+  color: #1DA1F2;
+  border-color: #1DA1F2;
+  border-width: thin;
+  border-style: solid;
+  margin-bottom: 0px;
+  background-repeat: no-repeat;
+  border-radius: 0.2rem;
+  width: 100%;
+}
+#TwitterExchange:hover {
+  background-color: white;
+}
