@@ -7,7 +7,8 @@
 }
 .unified_container .row .panel-default .panel-body {
   padding: 100px 30px;
-  max-width: 350px;
+  max-width: 85%;
+  min-width: 300px;
   width: auto;
   margin: 0 auto;
 }
@@ -21,7 +22,7 @@
 .unified_container .row .panel-default .panel-body img {
   max-width: 100%;
   width: auto;
-  height: 50px;
+  height: 23px;
   margin: 0 auto;
   display: block;
   float: left;
@@ -61,7 +62,7 @@
 }
 .unified_container .row .panel-default #api .localAccount .entry .buttons button {
   background-image: none;
-  background-color: #296ec6;
+  background-color: #0067b8;
   border: none;
   border-radius: 0.2rem;
   cursor: pointer;
@@ -87,13 +88,13 @@
   -webkit-user-select: none;
   color: #fff;
   width: 70%;
-  box-shadow: 0 0px 30px 0px #dae1f7;
+  /* box-shadow: 0 0px 30px 0px #dae1f7; */
 }
 .unified_container .row .panel-default #api .localAccount .entry .buttons button:hover {
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
   box-shadow: none;
-  background-color: #1662c7;
+  background-color: #0058ad;
   color: #fff;
 }
 .unified_container .row .panel-default #api .localAccount .entry .entry-item {
@@ -109,7 +110,7 @@
   background-color: #fff !important;
   background-image: none !important;
   /* border: none; */
-  border-radius: 0.2rem !important;
+  /* border-radius: 0.2rem !important; */
   /* box-shadow: 0 0px 30px 0px #dae1f7; */
   border-style: none;
   border-bottom: 1px solid #1662c7;
@@ -191,7 +192,7 @@
   margin-left: auto;
 }
 .unified_container .row .panel-default #api .social .accountButton:hover {
-  border-color: #0274b3;
+  border-color: #0067b8;
   border-width: thin;
   border-style: solid;
   border-radius: 0.2rem;

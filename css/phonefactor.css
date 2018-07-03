@@ -3,16 +3,16 @@
   height: 50px;
 }
 button#verifyCode {
-  background-color: #296ec6 !important;
+  background-color: #0067b8 !important;
 }
 button#verifyCode:hover {
-  background-color: #1662c7 !important;
+  background-color: #0058ad !important;
 }
 button#verifyPhone {
-  background-color: #296ec6 !important;
+  background-color: #0067b8 !important;
 }
 button#verifyPhone:hover {
-  background-color: #1662c7 !important;
+  background-color: #0058ad !important;
 }
 .col-lg-6 {
   width: auto;

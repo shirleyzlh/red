@@ -47,6 +47,7 @@ body {
   text-align: left;
   font-size: 1.5em;
   margin: auto;
+  margin-top: 1.5rem;
 }
 table {
   width: 40%;
@@ -62,8 +63,8 @@ table {
   background-position-x: 5%;
   background-position-y: 50%;
   background-repeat: no-repeat;
-  color: #296ec6;
-  border-color: #296ec6;
+  color: #0067b8;
+  border-color: #0067b8;
   border-width: thin;
   border-style: solid;
   border-radius: 0.2rem;
@@ -75,7 +76,7 @@ table {
   box-shadow: 0 0px 30px 0px #dae1f7;
 }
 .accountButton:hover, .buttons button:hover {
-  border-color: #296ec6;
+  border-color: #0067b8;
   border-width: thin;
   border-style: solid;
   background-color: white;
