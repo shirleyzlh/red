@@ -1,4 +1,8 @@
 /** Unified Signup Signin Page Styles **/
+.row {
+  width: 959px;
+  margin: 0 auto;
+}
 .unified_container .row .panel-default {
   margin-top: auto;
   margin-bottom: auto;
@@ -6,11 +10,11 @@
   background-color: white;
 }
 .unified_container .row .panel-default .panel-body {
-  padding: 100px 30px;
   max-width: 85%;
   min-width: 300px;
   width: auto;
   margin: 0 auto;
+  padding: 15px;
 }
 .unified_container .row .panel-default .panel-body .companyName {
   font-size: 1.5em;
@@ -32,7 +36,7 @@
   display: none;
 }
 .unified_container .row .panel-default #api {
-  display: table;
+  display: table !important;
   margin: 0;
   width: 100%;
 }
