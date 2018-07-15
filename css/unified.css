@@ -84,6 +84,9 @@
 .unified_container .row .panel-default #api .localAccount .intro h2 {
   font-size: 20px;
 }
+.unified_container .row .panel-default .panel-left #api .localAccount .create {
+  display: none;
+}
 .unified_container .row .panel-default .panel-right #api .localAccount .intro {
   display: none;
 }
@@ -179,7 +182,7 @@
 }
 .unified_container .row .panel-default #api .localAccount .entry .entry-item .password-label #forgotPassword {
   position: absolute;
-  bottom: 98px;
+  bottom: 75px;
   clear: right;
   cursor: pointer;
   float: right;
